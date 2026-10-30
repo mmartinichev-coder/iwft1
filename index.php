@@ -1,0 +1,1601 @@
+<?php get_header(); ?>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<div id="iwft-page-banks">
+<!-- NAV -->
+<nav>
+  <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>#choose-path">IWould<em>Fund</em>That <span class="logo-tag">Institutional</span></a>
+  <ul>
+    <li><a href="#choose-path">Who are you?</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#network">Bank Network</a></li>
+    <li><a href="#for-founder">Founders</a></li>
+    <li><a href="#bank">Banks</a></li>
+    <li><a href="#apply" class="nav-btn">Submit Your Idea</a></li>
+  </ul>
+</nav>
+
+<section class="iwft-audience-gate" id="choose-path" aria-label="Choose your path">
+  <div class="iwft-audience-gate__inner">
+    <h2 class="iwft-audience-gate__title">Who are you?</h2>
+    <p class="iwft-audience-gate__lead">We fund growth-company raises end to end. An institutional investment bank runs the raise, investor dinner seminars fill the room, and retainer lenders cover the cost.</p>
+    <div class="iwft-audience-gate__grid">
+      <a class="iwft-path-card" href="#iwft-banks-hero">
+        <span class="iwft-path-card__label">Founder or company</span>
+        <span class="iwft-path-card__headline">Raise capital</span>
+        <span class="iwft-path-card__desc">A bank-run raise plus investor dinners, with nothing paid upfront.</span>
+      </a>
+      <a class="iwft-path-card" href="#bank">
+        <span class="iwft-path-card__label">Investment bank</span>
+        <span class="iwft-path-card__headline">Take funded mandates</span>
+        <span class="iwft-path-card__desc">Retainer paid upfront, with seminar investors routed to you.</span>
+      </a>
+      <a class="iwft-path-card iwft-path-card--accent" href="#lenders">
+        <span class="iwft-path-card__label">Retainer lender</span>
+        <span class="iwft-path-card__headline">Fund the retainer</span>
+        <span class="iwft-path-card__desc">$200K per company, repaid from the raise. You keep the equity.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="hero" id="iwft-banks-hero">
+  <div class="hero-radial"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-inner">
+    <div class="eyebrow"><span class="eyebrow-line"></span> The IWFT Seminar Equity Engine™</div>
+    <h1>
+      Your Raise.<br>
+      <strong>Fully Funded.</strong><br>
+      <em>Nothing Upfront.</em>
+    </h1>
+    <div class="hero-rule"></div>
+    <p class="hero-sub">
+      Most growth companies can't fund a $150K–$250K raise retainer, and they can't reach investors on their own. IWFT covers both. Our retainer lenders put <strong>$200K behind your company</strong>: $100K retains an institutional investment bank to run your $1M–$10M raise, and $100K puts you in front of accredited investors at our dinner seminars. The loan is repaid out of the raise when it closes.
+    </p>
+    <div class="hero-actions">
+      <a href="#apply" class="btn-teal">Submit Your Company →</a>
+      <a href="#how" class="btn-ghost">See How It Works</a>
+    </div>
+    <div class="hero-proof">
+  <div class="proof-item"><span class="proof-num teal">$200K</span><span class="proof-label">Funded per company</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">$0</span><span class="proof-label">Paid upfront by you</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">~40</span><span class="proof-label">Accredited investors per dinner</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">$1M–$10M</span><span class="proof-label">Target raise</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item"><b>✦</b> Fleming's · Newport Beach · 72 seats confirmed · 40 on the waitlist</span>
+    <span class="ticker-item"><b>✦</b> $200K per company · $100K investment bank · $100K dinner seminars</span>
+    <span class="ticker-item"><b>✦</b> ~40 accredited investors at every dinner</span>
+    <span class="ticker-item"><b>✦</b> Seminars run twice every week</span>
+    <span class="ticker-item"><b>✦</b> Target raise · $1M–$10M per company</span>
+    <span class="ticker-item"><b>✦</b> 30+ years connecting investors with companies</span>
+    <span class="ticker-item"><b>✦</b> Fleming's · Newport Beach · 72 seats confirmed · 40 on the waitlist</span>
+    <span class="ticker-item"><b>✦</b> $200K per company · $100K investment bank · $100K dinner seminars</span>
+    <span class="ticker-item"><b>✦</b> ~40 accredited investors at every dinner</span>
+    <span class="ticker-item"><b>✦</b> Seminars run twice every week</span>
+    <span class="ticker-item"><b>✦</b> Target raise · $1M–$10M per company</span>
+    <span class="ticker-item"><b>✦</b> 30+ years connecting investors with companies</span>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="section" id="how">
+  <div class="section-eyebrow">The Process</div>
+  <div class="section-h2 reveal">One Raise.<br><em>Two Engines.</em> <strong>Zero Upfront.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">An institutional bank runs the process. Dinner seminars bring the investors. A retainer lender pays for both, and gets repaid when your raise closes.</p>
+
+  <div class="process">
+    <div class="process-spine"></div>
+
+    <div class="step reveal">
+      <div class="step-num">01</div>
+      <div class="step-content">
+        <h3>Submit Your Company &amp; Financial Snapshot</h3>
+        <p>Tell us about your company, your capital needs, and your vision. Our team reviews every submission for viability, market fit, and raise readiness. We take on growth companies raising $1M–$10M.</p>
+        <span class="step-tag">Confidential &amp; NDA-Protected</span>
+      </div>
+    </div>
+
+    <div class="step reveal reveal-delay-1">
+      <div class="step-num">02</div>
+      <div class="step-content">
+        <h3>We Fund $200K for Your Raise</h3>
+        <p>Once approved, a retainer lender in our network funds $200K for your raise. You pay nothing upfront. The note carries no interest and is repaid from the raise proceeds.</p>
+        <span class="step-tag">Non-Interest-Bearing · Repaid From the Raise</span>
+      </div>
+    </div>
+
+    <div class="step reveal reveal-delay-2">
+      <div class="step-num">03</div>
+      <div class="step-content">
+        <h3>An Institutional Bank Runs Your Raise</h3>
+        <p>$100K retains an exclusive institutional investment bank to take you to market: investor materials, outreach, and closing.</p>
+        <span class="step-tag">Exclusive Bank Mandate</span>
+      </div>
+    </div>
+
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num">04</div>
+      <div class="step-content">
+        <h3>You Meet Investors Over Dinner</h3>
+        <p>$100K funds investor dinner seminars. You present face to face to about 40 accredited investors at each dinner, and interested investors go straight to your bank for next steps.</p>
+        <span class="step-tag">~40 Accredited Investors per Dinner</span>
+      </div>
+    </div>
+
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num">05</div>
+      <div class="step-content">
+        <h3>Your Raise Closes. The Loan Is Repaid.</h3>
+        <p>When the raise closes, the $200K is repaid out of proceeds. In return for funding the raise, the lender holds a warrant for a $200K equity stake in your company. Phase 1 raises from accredited investors; Phase 2 brings in institutions.</p>
+        <span class="step-tag">Phase 1: Accredited · Phase 2: Institutional</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DINNER SEMINARS -->
+<section class="section section-alt" id="seminars">
+  <div class="section-eyebrow reveal">The Dinner Seminars</div>
+  <div class="section-h2 reveal">Where <em>Capital</em><br><strong>Meets the Company.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">Our seminars are run with Simplicity UFC, which has spent more than 30 years connecting investors with companies. Investors meet your CEO face to face, and the interested ones go straight to your investment bank.</p>
+  <div class="hero-proof reveal">
+  <div class="proof-item"><span class="proof-num teal">30+</span><span class="proof-label">Years connecting investors</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">~40</span><span class="proof-label">Accredited investors per dinner</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">2x</span><span class="proof-label">Seminars every week</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">72</span><span class="proof-label">Seats filled · Newport Beach</span></div>
+  </div>
+  <div class="protect-grid">
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>A personal invitation</h3>
+<p>Mailed to each investor by name, with seats reserved for them and a guest.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>A premium setting</h3>
+<p>Dinner at venues like Fleming's Prime Steakhouse, with two nights to choose from.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>A clear agenda</h3>
+<p>Topics affluent families care about: taxes, income, estate planning, and alternative investments.</p>
+</div>
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>Easy to RSVP</h3>
+<p>By phone or online. Our Newport Beach dinners filled 36 seats on each of two nights, with 40 more on the waitlist.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>100% accredited</h3>
+<p>Every guest in the room is an accredited investor, so your CEO presents to people who can invest.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>Straight to the bank</h3>
+<p>Interested investors move directly to your institutional investment bank for further discussions.</p>
+</div>
+  </div>
+</section>
+
+<!-- THE MARKET -->
+<section class="section" id="market">
+  <div class="section-eyebrow reveal">The Market</div>
+  <div class="section-h2 reveal">A Multi-Billion-Dollar<br><em>Seminar</em> <strong>Economy.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">Advisors, insurance groups, estate attorneys, tax firms, and investment sponsors already spend billions a year meeting affluent investors over dinner. Most of them treat the seminar as a cost. We treat it as the front door to capital, investors, and ownership.</p>
+  <div class="iwft-terms reveal">
+    <div class="iwft-terms__row"><div class="iwft-terms__k">RIAs &amp; wealth managers</div><div class="iwft-terms__v">$600M–$1.5B</div></div>
+    <div class="iwft-terms__row"><div class="iwft-terms__k">Insurance &amp; annuity producers</div><div class="iwft-terms__v">$500M–$1.2B</div></div>
+    <div class="iwft-terms__row"><div class="iwft-terms__k">Estate planning attorneys</div><div class="iwft-terms__v">$150M–$400M</div></div>
+    <div class="iwft-terms__row"><div class="iwft-terms__k">Tax &amp; CPA firms</div><div class="iwft-terms__v">$100M–$300M</div></div>
+    <div class="iwft-terms__row"><div class="iwft-terms__k">Private capital &amp; alternatives</div><div class="iwft-terms__v">$1B–$5B+</div></div>
+    <div class="iwft-terms__row iwft-terms__row--total"><div class="iwft-terms__k">Total annual opportunity</div><div class="iwft-terms__v">$2.3B–$8.4B+</div></div>
+  </div>
+  <p class="banks-cta reveal">Estimated annual U.S. seminar spend by segment · Industry estimates</p>
+</section>
+
+<!-- THE FLYWHEEL -->
+<section class="section section-alt" id="flywheel">
+  <div class="section-eyebrow reveal">The Flywheel</div>
+  <div class="section-h2 reveal">Every Seminar<br><em>Builds</em> <strong>the Next One.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">The more raises we fund, the bigger the network of investors and advisors behind the next company.</p>
+  <div class="protect-grid">
+    <div class="protect-card reveal"><span class="protect-icon"></span><h3>01 · Find the company</h3><p>We identify high-potential growth companies that need capital, credibility, and investor access.</p></div>
+    <div class="protect-card reveal reveal-delay-1"><span class="protect-icon"></span><h3>02 · Fund the raise</h3><p>Our lenders pay for the investment bank and the investor seminars, so the company spends nothing upfront.</p></div>
+    <div class="protect-card reveal reveal-delay-2"><span class="protect-icon"></span><h3>03 · Build relationships</h3><p>Dinners put the CEO in front of accredited investors and the advisors who serve them.</p></div>
+    <div class="protect-card reveal"><span class="protect-icon"></span><h3>04 · Close the raise</h3><p>The bank closes the round, the company grows, and the retainer loan is repaid from proceeds.</p></div>
+    <div class="protect-card reveal reveal-delay-1"><span class="protect-icon"></span><h3>05 · Capture equity</h3><p>Every funded raise creates an ownership position in a growing company.</p></div>
+    <div class="protect-card reveal reveal-delay-2"><span class="protect-icon"></span><h3>06 · The network compounds</h3><p>Investors and advisors from each seminar become a recurring channel for future raises, partnerships, and M&amp;A, alongside our network of founders and SocietyWave student ambassadors.</p></div>
+  </div>
+</section>
+
+<!-- WHY THIS WINS -->
+<section class="section" id="why-iwft">
+  <div class="section-eyebrow reveal">Why This Wins</div>
+  <div class="section-h2 reveal">Nobody Else<br><em>Combines</em> <strong>All Five.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">Seminar companies sell events. Lenders earn interest. Marketing firms earn fees. IWFT brings them together and adds equity.</p>
+  <div class="iwft-compare reveal">
+    <div class="iwft-compare__row iwft-compare__row--head"><div>Capability</div><div>Traditional firms</div><div>IWFT</div></div>
+    <div class="iwft-compare__row"><div>Seminar marketing</div><div class="is-yes">✓</div><div class="is-yes">✓</div></div>
+    <div class="iwft-compare__row"><div>Growth financing</div><div class="is-no">✕</div><div class="is-yes">✓</div></div>
+    <div class="iwft-compare__row"><div>Investor access</div><div class="is-mid">Limited</div><div class="is-yes">✓</div></div>
+    <div class="iwft-compare__row"><div>Advisor network</div><div class="is-mid">Limited</div><div class="is-yes">✓</div></div>
+    <div class="iwft-compare__row"><div>Equity participation</div><div class="is-no">✕</div><div class="is-yes">✓</div></div>
+  </div>
+  <div class="iwft-quote reveal">
+    <p>&ldquo;Everyone else sees a seminar expense. <em>We see a future equity position.</em>&rdquo;</p>
+    <span>We're not funding events. We're financing ownership.</span>
+  </div>
+</section>
+
+<!-- BANK NETWORK -->
+<div class="banks-section" id="network">
+  <div class="section-eyebrow reveal">Our Network</div>
+  <div class="section-h2 reveal">Institutional Banks.<br><em>Exclusive</em> <strong>Mandates.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">Every funded company is matched with one institutional investment bank from our network, chosen for sector depth and deal size. Every bank has passed our qualification process: track record, regulatory standing, and sector depth. Below is a <strong>representative spotlight</strong> plus sector-grouped <strong>illustrative profiles</strong>, mostly Southwest and Mountain West coverage in tech, hospitality, and consumer, in the <strong>$1M–$5M</strong> mandate class. <strong>Names are omitted</strong>; profiles are composite examples only, not specific institutions or endorsements.</p>
+
+  <div class="banks-showcase reveal">
+    <div class="banks-grid banks-grid--featured">
+      <div class="bank-cell bank-cell--featured">
+        <div class="bank-verified"></div>
+        <span class="bank-spotlight">Representative spotlight</span>
+        <div class="bank-name">Tech &amp; TMT · Mountain West</div>
+        <div class="bank-type">
+          <span class="bank-mandate">Typical mandate: $1M–$5M+ · Institutional tech &amp; telecom coverage</span>
+          <span class="bank-meta">Composite profile · Lower-middle &amp; regional institutional focus</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banks-sector-label">Technology &amp; media</div>
+      <div class="banks-grid banks-grid--4">
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Software &amp; SaaS · Denver, CO</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Founder-led tech · Tucson, AZ</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Middle-market · Austin, TX</div><div class="bank-type"><span class="bank-mandate">From $5M+ EV · Growth &amp; M&amp;A</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Special situations · Phoenix, AZ</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ class mandates</span><span class="bank-meta">Illustrative profile</span></div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banks-sector-label">Hospitality &amp; consumer</div>
+      <div class="banks-grid">
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Hospitality &amp; restaurants · Austin, TX</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Food &amp; beverage · Houston, TX</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Consumer &amp; retail · Scottsdale, AZ</div><div class="bank-type"><span class="bank-mandate">$3M+ EBITDA · Multi-sector</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Consumer products · Denver, CO</div><div class="bank-type"><span class="bank-mandate">$5M–$1B transaction capability</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">M&amp;A advisory · Scottsdale, AZ</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banks-sector-label">Regional hubs &amp; broader mandates</div>
+      <div class="banks-grid banks-grid--4">
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Lower middle · Texas</div><div class="bank-type"><span class="bank-mandate">$5M–$100M revenue coverage</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Mountain West · Regional</div><div class="bank-type"><span class="bank-mandate">$1.5M–$25M EBITDA class</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">Middle-market · Salt Lake City, UT</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+        <div class="bank-cell"><div class="bank-verified"></div><div class="bank-icon"></div><div class="bank-name">M&amp;A advisory · Tulsa, OK</div><div class="bank-type"><span class="bank-mandate">$1M–$5M+ typical mandate</span><span class="bank-meta">Illustrative profile</span></div></div>
+      </div>
+    </div>
+
+    <div class="banks-grid banks-grid--featured">
+      <div class="bank-cell" style="background:rgba(201,168,76,.04);border:1px dashed rgba(201,168,76,.2);">
+        <div class="bank-icon" style="opacity:.4;">+</div>
+        <div class="bank-name" style="color:var(--gold);opacity:.6;">73 more institutions</div>
+        <div class="bank-type"><span class="bank-mandate">All sectors · $1M–$500M+</span><span class="bank-meta">Full network on approval</span></div>
+      </div>
+    </div>
+  </div>
+  <p class="banks-cta reveal"><span>✦</span> All partners carry active FINRA/FCA registration and minimum 10-year track record <span>✦</span></p>
+</div>
+
+<!-- FOR FOUNDERS & BANKS -->
+<section class="for-section" id="who-its-for">
+  <div class="section-eyebrow reveal">Who It's For</div>
+  <div class="section-h2 reveal">Built for <em>Both</em><br><strong>Sides of the Table.</strong></div>
+
+  <div class="for-grid">
+    <div class="for-card reveal" id="for-founder">
+      <div class="for-card-label">For Founders & Companies</div>
+      <h3>Stop Paying to Raise. Start Raising.</h3>
+      <p>Most growth companies stall because they can't afford a $150K–$250K raise retainer and have no way into a room of investors. IWFT funds both the bank and the investor seminars, so you can start the raise without the capital upfront.</p>
+      <p style="margin-top:.75rem;">You built something worth funding. You shouldn't have to cold-email bankers, pay for introductions that go nowhere, or come up with the retainer out of pocket.</p>
+      <ul>
+        <li><strong>$200K funded for your raise</strong>, with nothing out of pocket</li>
+        <li>An exclusive institutional investment bank runs the process</li>
+        <li>Face-to-face dinners with about 40 accredited investors each</li>
+        <li>Non-interest-bearing loan, repaid from the raise when it closes</li>
+        <li>Phase 1 accredited investors, then Phase 2 institutional investors</li>
+        <li>Target raise of $1M–$10M</li>
+      </ul>
+      <div class="confirmed">✓ Application Confidential</div>
+      <div class="for-bg-num">F</div>
+    </div>
+
+    <div class="for-card reveal reveal-delay-1" id="for-bank">
+      <div class="for-card-label">For Investment Banks</div>
+      <h3>Funded Mandates. Investors in the Room.</h3>
+      <p>Take on vetted growth companies with the retainer already paid and a seminar pipeline of accredited investors feeding the raise.</p>
+      <ul>
+        <li>$100K retainer funded upfront from lender capital</li>
+        <li>Exclusive mandates on vetted, sector-matched companies</li>
+        <li>Accredited investors from every dinner routed to your team</li>
+        <li>Phase 2 institutional follow-on built into the plan</li>
+        <li>No cold origination and no unpaid pitches</li>
+      </ul>
+      <div class="confirmed">✓ FINRA/FCA Verification Required</div>
+      <div class="for-bg-num">B</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi-section">
+  <div class="section-eyebrow reveal">What They're Saying</div>
+  <div class="section-h2 reveal">The <em>Right</em> Bank<br><strong>Changes Everything.</strong></div>
+
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="testi-stars">★★★★★</div>
+      <blockquote>"We had a short list of banks before trying IWFT. Within days, we had a wave of serious proposals. The partner we ultimately chose wasn't even on our radar - and it turned out to be the best decision we made."</blockquote>
+      <div class="testi-divider"></div>
+      <div class="testi-author">
+        <div class="testi-avatar">C</div>
+        <div>
+          <div class="testi-name">CEO</div>
+          <div class="testi-role">Energy Company — Growth Stage</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal reveal-delay-1">
+      <div class="testi-stars">★★★★★</div>
+      <blockquote>"Our previous process dragged on with an average outcome. Through IWFT, we moved quickly, created real competition, and closed a significantly larger round in a fraction of the time. The difference in execution was night and day."</blockquote>
+      <div class="testi-divider"></div>
+      <div class="testi-author">
+        <div class="testi-avatar">R</div>
+        <div>
+          <div class="testi-name">Founder</div>
+          <div class="testi-role">Healthcare Company — Expansion Capital</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal reveal-delay-2">
+      <div class="testi-stars">★★★★★</div>
+      <blockquote>"As a first-time founder without a deep network, IWFT leveled the playing field. We went from limited access to multiple bank conversations in days - and ultimately closed a major round."</blockquote>
+      <div class="testi-divider"></div>
+      <div class="testi-author">
+        <div class="testi-avatar">T</div>
+        <div>
+          <div class="testi-name">CFO</div>
+          <div class="testi-role">Construction Tech — Series B</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / SIGNUP -->
+<section class="cta-section" id="apply">
+  <div class="cta-radial"></div>
+  <div class="cta-border-top"></div>
+
+  <div class="cta-label reveal">Start Your Raise</div>
+  <div class="cta-h2 reveal">Submit Once.<br><em>We Fund</em><br><strong>the Raise.</strong></div>
+  <p class="cta-sub reveal">Tell us about your company. Our team reviews every submission within 48 hours. If you're approved, we fund the bank and the investor seminars, and your raise begins.</p>
+
+  <div class="cta-steps reveal">
+    <div class="cta-step"><span class="cta-step-icon"></span> Submit your details</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> 48-hr review</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> $200K funded</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> Bank &amp; dinners launch</div>
+  </div>
+
+  <div class="signup-form signup-form--wide reveal">
+    <iframe
+      data-tally-src="https://tally.so/embed/68vdNO?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+      loading="lazy"
+      width="100%"
+      height="600"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      title="Submit Your Company - IWouldFundThat"></iframe>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">IWould<em>Fund</em>That</div>
+  <p>© 2026 IWouldFundThat.com · The Seminar Equity Engine™</p>
+  <div class="footer-links">
+    <a href="#" class="iwft-legal-open" data-legal-target="disclaimer">Disclaimer</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="privacy">Privacy Policy</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="terms">Terms of Service</a>
+    <a href="mailto:rjohnson@iwouldfundthat.com">Contact</a>
+  </div>
+  <p class="footer-disclaimer">For discussion purposes only. Not an offer to sell or a solicitation to buy securities. Illustrative returns are not guarantees, and past results do not predict future results. Accredited investors only.</p>
+</footer>
+
+
+</div>
+
+<div id="iwft-page-lenders">
+<!-- NAV -->
+<nav>
+<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>#choose-path">IWould<em>Fund</em>That <span class="logo-tag">Lender Network</span></a>
+<ul>
+<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#choose-path">Who are you?</a></li>
+<li><a href="#lender-returns">Your Returns</a></li>
+<li><a href="#lender-roi">ROI Calculator</a></li>
+<li><a href="#lender-how">How It Works</a></li>
+<li><a href="#lender-deals">Open Deals</a></li>
+<li><a class="nav-btn" href="#lender-join">Become a Lender</a></li>
+</ul>
+</nav>
+
+<section class="iwft-audience-gate" id="lenders-choose-path" aria-label="Choose your path">
+  <div class="iwft-audience-gate__inner">
+    <p class="iwft-audience-gate__kicker">The Seminar Equity Engine™</p>
+    <h2 class="iwft-audience-gate__title">Who are you?</h2>
+    <p class="iwft-audience-gate__lead">We fund growth-company raises end to end. An institutional investment bank runs the raise, investor dinner seminars fill the room, and retainer lenders cover the cost.</p>
+    <div class="iwft-audience-gate__grid">
+      <a class="iwft-path-card" href="<?php echo esc_url( home_url( '/' ) ); ?>#iwft-banks-hero">
+        <span class="iwft-path-card__label">Founder or company</span>
+        <span class="iwft-path-card__headline">Raise capital</span>
+        <span class="iwft-path-card__desc">A bank-run raise plus investor dinners, with nothing paid upfront.</span>
+      </a>
+      <a class="iwft-path-card" href="<?php echo esc_url( home_url( '/' ) ); ?>#bank">
+        <span class="iwft-path-card__label">Investment bank</span>
+        <span class="iwft-path-card__headline">Take funded mandates</span>
+        <span class="iwft-path-card__desc">Retainer paid upfront, with seminar investors routed to you.</span>
+      </a>
+      <a class="iwft-path-card iwft-path-card--accent" href="<?php echo esc_url( home_url( '/' ) ); ?>#lenders">
+        <span class="iwft-path-card__label">Retainer lender</span>
+        <span class="iwft-path-card__headline">Fund the retainer</span>
+        <span class="iwft-path-card__desc">$200K per company, repaid from the raise. You keep the equity.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="hero" id="lenders-hero">
+<div class="hero-radial"></div>
+<div class="hero-lines"></div>
+<div class="hero-inner">
+<div class="eyebrow"><span class="eyebrow-line"></span> The $1M Retainer Program · IWouldFundThat</div>
+<h1>
+      Lend the Retainer.<br/>
+<strong>Get It Back.</strong><br/>
+<em>Keep the Equity.</em>
+</h1>
+<div class="hero-rule"></div>
+<p class="hero-sub">
+      One $1M loan backs five growth companies, $200K each. In every company, $100K retains an institutional investment bank and $100K fills investor dinner seminars. Each company repays its $200K out of its capital raise, and <strong>you keep a $200K equity stake in every company</strong>, at a cost basis of about $1,000.
+    </p>
+<div class="hero-actions">
+<a class="btn-teal" href="#lender-join">Book an Intro Call →</a>
+<a class="btn-ghost" href="#lender-how">See How It Works</a>
+</div>
+<div class="hero-proof">
+  <div class="proof-item"><span class="proof-num teal">$1M</span><span class="proof-label">One retainer loan</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">5</span><span class="proof-label">Growth companies</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">$200K</span><span class="proof-label">Equity stake in each</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">1 yr</span><span class="proof-label">Maturity · No interest</span></div>
+</div>
+</div>
+</section>
+
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item"><b>✦</b> $1M loan · 5 companies · $200K each</span>
+    <span class="ticker-item"><b>✦</b> Per company · $100K investment bank + $100K dinner seminars</span>
+    <span class="ticker-item"><b>✦</b> $1,000 warrant cost basis · $200K stake at close</span>
+    <span class="ticker-item"><b>✦</b> Repaid from raise proceeds · 1-year maturity</span>
+    <span class="ticker-item"><b>✦</b> $124T wealth transfer underway through 2048</span>
+    <span class="ticker-item"><b>✦</b> Fleming's · Newport Beach · 72 seats · 40 on the waitlist</span>
+    <span class="ticker-item"><b>✦</b> $1M loan · 5 companies · $200K each</span>
+    <span class="ticker-item"><b>✦</b> Per company · $100K investment bank + $100K dinner seminars</span>
+    <span class="ticker-item"><b>✦</b> $1,000 warrant cost basis · $200K stake at close</span>
+    <span class="ticker-item"><b>✦</b> Repaid from raise proceeds · 1-year maturity</span>
+    <span class="ticker-item"><b>✦</b> $124T wealth transfer underway through 2048</span>
+    <span class="ticker-item"><b>✦</b> Fleming's · Newport Beach · 72 seats · 40 on the waitlist</span>
+  </div>
+</div>
+
+<section class="section" id="lender-returns">
+<div class="section-eyebrow reveal">Your Returns</div>
+<div class="section-h2 reveal">Your Loan Comes Back.<br/><strong>Your Equity Stays.</strong></div>
+<p class="section-sub reveal reveal-delay-1">You lend $1M. You get $1M back out of the raises. You also keep $1M of stock across five companies.</p>
+<div class="returns-grid">
+<div class="returns-card reveal">
+<span class="rc-icon"></span>
+<div class="rc-label">Return Stream One</div>
+<h3 class="rc-title">Principal Repaid From Each Raise</h3>
+<p class="rc-body">Your $1M is split $200K per company. Each company repays its $200K out of its capital raise when it closes. The note is non-interest-bearing with a one-year maturity.</p>
+<div class="rc-highlight">
+<div class="rc-highlight-num">$1M</div>
+<div class="rc-highlight-label">Returned · $200K per Company · 1-Year Maturity</div>
+</div>
+<div class="rc-bg-icon">$</div>
+</div>
+<div class="returns-card reveal reveal-delay-1">
+<span class="rc-icon"></span>
+<div class="rc-label">Return Stream Two</div>
+<h3 class="rc-title">$200K of Equity in Every Company</h3>
+<p class="rc-body">Each company grants you a warrant for a $200K stake, with a cost basis of about $1,000. If the five companies grow 3x, that $1M of equity is worth $3M, and your loan was repaid separately.</p>
+<div class="rc-highlight">
+<div class="rc-highlight-num">$1M</div>
+<div class="rc-highlight-label">Of Stock · Five Companies · Before Any Growth</div>
+</div>
+<div class="rc-bg-icon">%</div>
+</div>
+</div>
+</section>
+
+<section class="roi-section section" id="lender-roi">
+  <div class="section-eyebrow reveal">Warrant ROI Breakdown</div>
+  <div class="section-h2 reveal">What <em>$1,000</em> Becomes<br/><strong>in One Retainer.</strong></div>
+  <p class="section-sub reveal reveal-delay-1">The warrant costs about $1,000 once the loan is paid back. When the raise closed, that equity was worth $200,000, before any growth in the company.</p>
+
+  <div class="roi-body reveal reveal-delay-1">
+
+    <!-- Left: Chart -->
+    <div class="roi-chart-col">
+      <div class="roi-chart-label-top">
+        <span class="roi-chart-kicker">Net gain vs. cost basis</span>
+      </div>
+      <div class="roi-donut-wrap">
+        <svg class="roi-donut" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="roiGradGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#E8C97A"/>
+              <stop offset="100%" stop-color="#C9A84C"/>
+            </linearGradient>
+            <linearGradient id="roiGradTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1AD6C0"/>
+              <stop offset="100%" stop-color="#0fa896"/>
+            </linearGradient>
+            <filter id="roiGlow">
+              <feGaussianBlur stdDeviation="3" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          <!-- Track -->
+          <circle cx="110" cy="110" r="88" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="22"/>
+          <!-- Net gain arc: 199/200 = 99.5% of circle. circumference = 2π×88 ≈ 552.9 -->
+          <!-- 99.5% → dasharray 550.1 552.9 ; 0.5% → dasharray 2.8 552.9 -->
+          <!-- Start from top: rotate -90deg -->
+          <circle cx="110" cy="110" r="88" fill="none"
+            stroke="url(#roiGradTeal)" stroke-width="22"
+            stroke-dasharray="549.6 552.9"
+            stroke-dashoffset="0"
+            stroke-linecap="round"
+            transform="rotate(-90 110 110)"
+            filter="url(#roiGlow)"
+            class="roi-arc-gain"/>
+          <!-- Cost basis arc: 0.5% of circle -->
+          <circle cx="110" cy="110" r="88" fill="none"
+            stroke="url(#roiGradGold)" stroke-width="22"
+            stroke-dasharray="3.3 552.9"
+            stroke-dashoffset="-549.6"
+            stroke-linecap="round"
+            transform="rotate(-90 110 110)"
+            class="roi-arc-basis"/>
+          <!-- Center text -->
+          <text x="110" y="110" text-anchor="middle" dominant-baseline="central" font-family="Montserrat,sans-serif" font-size="34" font-weight="800" fill="#C9A84C" dy="-10">199x</text>
+          <text x="110" y="110" text-anchor="middle" dominant-baseline="central" font-family="JetBrains Mono,monospace" font-size="8" fill="#7A8298" letter-spacing="2" dy="14">PER CYCLE</text>
+          <text x="110" y="110" text-anchor="middle" dominant-baseline="central" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#1AD6C0" letter-spacing="1.5" dy="27">19,900% ROI</text>
+        </svg>
+      </div>
+      <div class="roi-legend">
+        <div class="roi-legend-item">
+          <span class="roi-legend-dot" style="background:var(--teal)"></span>
+          <span class="roi-legend-text">Net Gain — $199,000</span>
+        </div>
+        <div class="roi-legend-item">
+          <span class="roi-legend-dot" style="background:var(--gold)"></span>
+          <span class="roi-legend-text">Cost Basis — $1,000</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Breakdown -->
+    <div class="roi-breakdown-col">
+
+      <div class="roi-big-number">
+        <div class="roi-big-kicker">Starting with just</div>
+        <div class="roi-big-val"><em>$1,000</em></div>
+        <div class="roi-big-sub">warrant cost basis</div>
+      </div>
+
+      <div class="roi-lines">
+        <div class="roi-line">
+          <div class="roi-line-left">
+            <span class="roi-line-dot" style="background:rgba(255,255,255,0.15)"></span>
+            <span class="roi-line-label">Retainer Loan Principal</span>
+          </div>
+          <span class="roi-line-val">$200,000</span>
+        </div>
+        <div class="roi-line">
+          <div class="roi-line-left">
+            <span class="roi-line-dot" style="background:rgba(255,255,255,0.15)"></span>
+            <span class="roi-line-label">Warrant Notional Value</span>
+          </div>
+          <span class="roi-line-val">$200,000</span>
+        </div>
+        <div class="roi-line">
+          <div class="roi-line-left">
+            <span class="roi-line-dot" style="background:var(--gold)"></span>
+            <span class="roi-line-label">Your Warrant Cost Basis</span>
+          </div>
+          <span class="roi-line-val gold">$1,000</span>
+        </div>
+        <div class="roi-line roi-line--highlight">
+          <div class="roi-line-left">
+            <span class="roi-line-dot" style="background:var(--teal)"></span>
+            <span class="roi-line-label">Net Gain (Notional − Basis)</span>
+          </div>
+          <span class="roi-line-val teal">$199,000</span>
+        </div>
+      </div>
+
+      <div class="roi-result-banner">
+        <div class="roi-result-formula">$199,000 ÷ $1,000</div>
+        <div class="roi-result-eq">=</div>
+        <div class="roi-result-answer">
+          <span class="roi-result-x">199x</span>
+          <span class="roi-result-pct">19,900% ROI</span>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="lender-why-now">
+<div class="section-eyebrow reveal">Why Now</div>
+<div class="section-h2 reveal">The Largest Wealth Transfer<br/><em>in History</em> <strong>Is Underway.</strong></div>
+<p class="section-sub reveal reveal-delay-1">It's happening now, and heirs want private ownership, not just public stocks and bonds. That's who fills our dinner seminars.</p>
+<div class="hero-proof reveal">
+  <div class="proof-item"><span class="proof-num teal">$124T</span><span class="proof-label">Changing hands through 2048</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">$105T</span><span class="proof-label">Going to heirs</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">$62T</span><span class="proof-label">From affluent families</span></div>
+</div>
+<div class="protect-grid">
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>01 · Wealth is moving</h3>
+<p>Baby Boomers are passing on $124T, and a new generation is deciding where that capital goes next.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>02 · Demand for private deals</h3>
+<p>Families want direct ownership in growing companies, not just yield.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>03 · Companies need capital</h3>
+<p>Growth companies can't fund a $150K–$250K raise retainer or reach investors. The Seminar Equity Engine™ funds the raise, takes equity, and controls repayment.</p>
+</div>
+</div>
+<p class="banks-cta reveal">Source: Cerulli Associates, 2024</p>
+</section>
+
+<section class="section section-alt" id="lender-market">
+<div class="section-eyebrow reveal">The Bigger Picture</div>
+<div class="section-h2 reveal">We're Not Funding Events.<br/><em>We're Financing</em> <strong>Ownership.</strong></div>
+<p class="section-sub reveal reveal-delay-1">U.S. firms already spend an estimated $2.3B–$8.4B+ a year on investor seminars and treat it as a marketing cost. IWFT turns that same seminar into a way to fund growth companies and hold equity in them.</p>
+<div class="hero-proof reveal">
+  <div class="proof-item"><span class="proof-num teal">$2.3B–$8.4B+</span><span class="proof-label">Annual U.S. seminar spend</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">5</span><span class="proof-label">Buyer segments, from RIAs to fund sponsors</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">2</span><span class="proof-label">Returns per loan: principal back + equity</span></div>
+</div>
+<div class="iwft-quote reveal">
+  <p>&ldquo;Everyone else sees a seminar expense. <em>We see a future equity position.</em>&rdquo;</p>
+</div>
+<p class="banks-cta reveal">Industry estimates · Illustrative, not a guarantee of future results</p>
+</section>
+
+<section class="section" id="lender-how">
+<div class="section-eyebrow reveal">How It Works</div>
+<div class="section-h2 reveal">How Your <em>$1M</em> Works,<br/><strong>From Funding to Repayment.</strong></div>
+<p class="section-sub reveal reveal-delay-1">The companies pay nothing upfront. Steps 03–05 run for all five companies.</p>
+<div class="process">
+<div class="process-spine"></div>
+    <div class="step reveal">
+      <div class="step-num">01</div>
+      <div class="step-content">
+        <h3>Intro Call &amp; Deal Review</h3>
+        <p>Walk through the program with Richard Johnson. Review the five companies and the note and warrant terms before you commit.</p>
+        <span class="step-tag">Accredited Investors Only · KYC/AML Verified</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-1">
+      <div class="step-num">02</div>
+      <div class="step-content">
+        <h3>You Loan $1M</h3>
+        <p>One commitment, deployed $200K to each of five growth companies raising $1M–$10M each.</p>
+        <span class="step-tag">One Loan · Five Companies</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-2">
+      <div class="step-num">03</div>
+      <div class="step-content">
+        <h3>The Bank Runs Each Raise</h3>
+        <p>$100K per company retains an exclusive institutional investment bank to take the company to market: investor materials, outreach, and closing.</p>
+        <span class="step-tag">$100K · Institutional Investment Bank</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num">04</div>
+      <div class="step-content">
+        <h3>Dinners Put Each Company in Front of Investors</h3>
+        <p>$100K per company funds dinner seminars, held twice a week with about 40 accredited investors at each. Investors meet the CEO face to face.</p>
+        <span class="step-tag">$100K · Dinner Seminars</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num">05</div>
+      <div class="step-content">
+        <h3>Raises Close. You're Repaid. You Keep the Equity.</h3>
+        <p>Each company repays its $200K out of its capital raise. Your warrant for a $200K stake in each company stays with you.</p>
+        <span class="step-tag">Principal Repaid · Equity Retained</span>
+      </div>
+    </div>
+</div>
+</section>
+
+<section class="deals-section" id="lender-deals">
+<div class="section-eyebrow reveal">Sample Program</div>
+<div class="section-h2 reveal">Companies in<br/><em>the</em> <strong>Program.</strong></div>
+<p class="section-sub reveal reveal-delay-1">A sample of the kinds of companies a $1M program backs. Every company is reviewed and approved by our team before it's offered.</p>
+<div class="deals-grid">
+<div class="deal-card reveal">
+<div class="deal-status open"><span class="pulse-dot"></span>Open</div>
+<div class="deal-sector">FinTech · Growth</div>
+<h3>Payment Infrastructure SaaS</h3>
+<p class="deal-desc">B2B payments platform serving mid-market retailers. $2.5M ARR. Raising $2M.</p>
+<div class="deal-metrics">
+<div><div class="deal-metric-label">Retainer Loan</div><div class="deal-metric-val gold">$200,000</div></div>
+<div><div class="deal-metric-label">Maturity</div><div class="deal-metric-val">1 Year</div></div>
+<div><div class="deal-metric-label">Interest</div><div class="deal-metric-val teal">None</div></div>
+<div><div class="deal-metric-label">Equity Stake</div><div class="deal-metric-val teal">$200K</div></div>
+</div>
+<div class="deal-bar">
+<div class="deal-bar-label"><span>Funded</span><b>74%</b></div>
+<div class="deal-progress"><div class="deal-fill" style="width:74%"></div></div>
+</div>
+</div>
+<div class="deal-card reveal reveal-delay-1">
+<div class="deal-status closing">Closing Soon</div>
+<div class="deal-sector">CleanTech · Growth Equity</div>
+<h3>Modular Solar Infrastructure</h3>
+<p class="deal-desc">Utility-scale solar panel manufacturing with patented assembly tech. $1M revenue. Raising $2M.</p>
+<div class="deal-metrics">
+<div><div class="deal-metric-label">Retainer Loan</div><div class="deal-metric-val gold">$200,000</div></div>
+<div><div class="deal-metric-label">Maturity</div><div class="deal-metric-val">1 Year</div></div>
+<div><div class="deal-metric-label">Interest</div><div class="deal-metric-val teal">None</div></div>
+<div><div class="deal-metric-label">Equity Stake</div><div class="deal-metric-val teal">$200K</div></div>
+</div>
+<div class="deal-bar">
+<div class="deal-bar-label"><span>Funded</span><b>91%</b></div>
+<div class="deal-progress"><div class="deal-fill" style="width:91%"></div></div>
+</div>
+</div>
+<div class="deal-card reveal reveal-delay-2">
+<div class="deal-status open"><span class="pulse-dot"></span>Open</div>
+<div class="deal-sector">HealthTech · Growth</div>
+<h3>AI-Assisted Diagnostics Platform</h3>
+<p class="deal-desc">FDA-cleared radiology AI deployed across 38 hospital networks. $1.5M ARR. Raising $2M.</p>
+<div class="deal-metrics">
+<div><div class="deal-metric-label">Retainer Loan</div><div class="deal-metric-val gold">$200,000</div></div>
+<div><div class="deal-metric-label">Maturity</div><div class="deal-metric-val">1 Year</div></div>
+<div><div class="deal-metric-label">Interest</div><div class="deal-metric-val teal">None</div></div>
+<div><div class="deal-metric-label">Equity Stake</div><div class="deal-metric-val teal">$200K</div></div>
+</div>
+<div class="deal-bar">
+<div class="deal-bar-label"><span>Funded</span><b>38%</b></div>
+<div class="deal-progress"><div class="deal-fill" style="width:38%"></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="section-eyebrow reveal">Protections</div>
+<div class="section-h2 reveal">How the Structure<br/><em>Protects</em> <strong>Your Capital.</strong></div>
+<p class="section-sub reveal reveal-delay-1">Every program is built around the same four protections, backed by signed agreements.</p>
+<div class="protect-grid">
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>Diversification</h3>
+<p>Your $1M loan is spread across five companies, not concentrated in one.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>Repaid first</h3>
+<p>Each company's loan is repaid out of its capital raise.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>Run by an institutional investment bank</h3>
+<p>Every raise goes through the retained institutional investment bank.</p>
+</div>
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>$1,000 cost basis</h3>
+<p>The equity you keep in each company has a cost basis of approximately $1,000.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>Legally executed agreements</h3>
+<p>Every loan is documented with a note and a warrant, executed by both parties before any funds move.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>Cap table registration</h3>
+<p>Your equity is formally recorded on each company's cap table. It's a legal instrument, not a handshake.</p>
+</div>
+</div>
+</section>
+
+<section class="section section-alt" id="lender-terms">
+<div class="section-eyebrow reveal">Summary of Terms</div>
+<div class="section-h2 reveal">Key <strong>Terms.</strong></div>
+<div class="iwft-terms reveal">
+<div class="iwft-terms__row"><div class="iwft-terms__k">Investment</div><div class="iwft-terms__v">$1,000,000</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Structure</div><div class="iwft-terms__v">One $1M retainer loan, deployed $200K per company across five</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Per-company split</div><div class="iwft-terms__v">$100K to retain an institutional investment bank · $100K investor seminars</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Interest</div><div class="iwft-terms__v">None (non-interest-bearing note)</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Maturity</div><div class="iwft-terms__v">One year</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Repayment</div><div class="iwft-terms__v">From raise proceeds when each raise closes</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Equity</div><div class="iwft-terms__v">$200K stake per company via warrant, $1,000 cost basis</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Target raise</div><div class="iwft-terms__v">$1M–$10M per company</div></div>
+<div class="iwft-terms__row"><div class="iwft-terms__k">Investor phases</div><div class="iwft-terms__v">Phase 1: accredited investors · Phase 2: institutional investors</div></div>
+</div>
+<p class="banks-cta reveal">Final terms per definitive documents</p>
+</section>
+
+<section class="cta-section" id="lender-join">
+<div class="cta-radial"></div>
+<div class="cta-border-top"></div>
+<div class="cta-label reveal">Next Steps</div>
+<div class="cta-h2 reveal">One Loan.<br/><em>Five Companies.</em><br/><strong>Equity in Every One.</strong></div>
+<p class="cta-sub reveal">Book an intro call to walk through the program with Richard Johnson, review the five companies and the note and warrant terms, then fund the $1M.</p>
+
+<div class="cta-steps reveal">
+  <div class="cta-step"><span class="cta-step-icon"></span> Intro call</div>
+  <div class="cta-step" style="color:var(--gold);">→</div>
+  <div class="cta-step"><span class="cta-step-icon"></span> Review the deals</div>
+  <div class="cta-step" style="color:var(--gold);">→</div>
+  <div class="cta-step"><span class="cta-step-icon"></span> Fund the $1M</div>
+</div>
+
+<div class="tiers reveal iwft-tiers-lender-wrap">
+  <div class="tier featured iwft-tier-core">
+    <div class="tier-label" style="color:var(--gold)">The $1M Retainer Program</div>
+    <div class="tier-amount">$1,000,000</div>
+    <div class="tier-range">One loan · Five companies</div>
+    <ul>
+      <li><b>$200K</b> equity stake in each company</li>
+      <li>Principal repaid from each raise</li>
+      <li>1-year, non-interest-bearing note</li>
+      <li>Direct line to Richard Johnson, CEO</li>
+    </ul>
+  </div>
+</div>
+
+<div class="signup-form signup-form--wide reveal">
+  <iframe
+    data-tally-src="https://tally.so/embed/68vdNO?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+    loading="lazy"
+    width="100%"
+    height="600"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    title="Become a Lender - IWouldFundThat"></iframe>
+</div>
+<p class="cta-sub reveal" style="margin-top:2rem;">Richard A. Johnson II · CEO/Founder, IWouldFundThat, LLC · <a href="mailto:RJohnson@IWouldFundThat.com">RJohnson@IWouldFundThat.com</a> · <a href="tel:+19495337812">949-533-7812</a><br/>8105 Irvine Center Drive, Irvine, CA 92618</p>
+</section>
+
+<footer>
+  <div class="footer-logo">IWould<em>Fund</em>That</div>
+  <p>© 2026 IWouldFundThat.com · The Seminar Equity Engine™</p>
+  <div class="footer-links">
+    <a href="#" class="iwft-legal-open" data-legal-target="disclaimer">Disclaimer</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="privacy">Privacy Policy</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="terms">Terms of Service</a>
+    <a href="mailto:rjohnson@iwouldfundthat.com">Contact</a>
+  </div>
+  <p class="footer-disclaimer">For discussion purposes only. Not an offer to sell or a solicitation to buy securities. Illustrative returns are not guarantees, and past results do not predict future results. Accredited investors only.</p>
+</footer>
+</div>
+
+<div id="iwft-page-bank">
+<nav>
+<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>#choose-path">IWould<em>Fund</em>That <span class="logo-tag">Bank Network</span></a>
+<ul>
+<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#choose-path">Who are you?</a></li>
+<li><a href="#bank-how">How banks engage</a></li>
+<li><a href="#bank-benefits">Why IWFT</a></li>
+<li><a class="nav-btn" href="#bank-join">Join network</a></li>
+</ul>
+</nav>
+
+<section class="iwft-audience-gate" id="bank-choose-path" aria-label="Choose your path">
+  <div class="iwft-audience-gate__inner">
+    <p class="iwft-audience-gate__kicker">The Seminar Equity Engine™</p>
+    <h2 class="iwft-audience-gate__title">Who are you?</h2>
+    <p class="iwft-audience-gate__lead">We fund growth-company raises end to end. An institutional investment bank runs the raise, investor dinner seminars fill the room, and retainer lenders cover the cost.</p>
+    <div class="iwft-audience-gate__grid">
+      <a class="iwft-path-card" href="<?php echo esc_url( home_url( '/' ) ); ?>#iwft-banks-hero">
+        <span class="iwft-path-card__label">Founder or company</span>
+        <span class="iwft-path-card__headline">Raise capital</span>
+        <span class="iwft-path-card__desc">A bank-run raise plus investor dinners, with nothing paid upfront.</span>
+      </a>
+      <a class="iwft-path-card" href="<?php echo esc_url( home_url( '/' ) ); ?>#bank">
+        <span class="iwft-path-card__label">Investment bank</span>
+        <span class="iwft-path-card__headline">Take funded mandates</span>
+        <span class="iwft-path-card__desc">Retainer paid upfront, with seminar investors routed to you.</span>
+      </a>
+      <a class="iwft-path-card iwft-path-card--accent" href="<?php echo esc_url( home_url( '/' ) ); ?>#lenders">
+        <span class="iwft-path-card__label">Retainer lender</span>
+        <span class="iwft-path-card__headline">Fund the retainer</span>
+        <span class="iwft-path-card__desc">$200K per company, repaid from the raise. You keep the equity.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="hero" id="bank-hero">
+<div class="hero-radial"></div>
+<div class="hero-lines"></div>
+<div class="hero-inner">
+<div class="eyebrow"><span class="eyebrow-line"></span> For investment banks · IWouldFundThat</div>
+<h1>
+      Funded mandates.<br/>
+<strong>Retainer paid upfront.</strong><br/>
+<em>Investors in the room.</em>
+</h1>
+<div class="hero-rule"></div>
+<p class="hero-sub">
+      Every IWFT company comes with a <strong>$100K bank retainer already funded</strong> by our lender network, plus $100K of investor dinner seminars that put the CEO in front of about 40 accredited investors at a time. Interested investors come straight to you. You run the raise, with <strong>no cold origination and no unpaid pitches.</strong>
+    </p>
+<div class="hero-actions">
+<a class="btn-teal" href="#bank-join">Request verification →</a>
+<a class="btn-ghost" href="#bank-how">How banks engage</a>
+</div>
+<div class="hero-proof">
+  <div class="proof-item"><span class="proof-num teal">$100K</span><span class="proof-label">Retainer funded upfront</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">Exclusive</span><span class="proof-label">One bank per company</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num teal">~40</span><span class="proof-label">Accredited investors per dinner</span></div>
+  <div class="proof-divider"></div>
+  <div class="proof-item"><span class="proof-num">$1M–$10M</span><span class="proof-label">Target raise</span></div>
+</div>
+</div>
+</section>
+
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item"><b>✦</b> Retainer funded · $100K · Tech &amp; TMT · exclusive mandate</span>
+    <span class="ticker-item"><b>✦</b> Dinner seminar · ~40 accredited investors · CEO presentation</span>
+    <span class="ticker-item"><b>✦</b> Investor follow-up routed to bank · Consumer · $1M–$10M target</span>
+    <span class="ticker-item"><b>✦</b> Retainer funded · $100K · HealthTech · growth raise</span>
+    <span class="ticker-item"><b>✦</b> Phase 2 · institutional investors · SaaS</span>
+    <span class="ticker-item"><b>✦</b> Retainer funded · $100K · Tech &amp; TMT · exclusive mandate</span>
+    <span class="ticker-item"><b>✦</b> Dinner seminar · ~40 accredited investors · CEO presentation</span>
+    <span class="ticker-item"><b>✦</b> Investor follow-up routed to bank · Consumer · $1M–$10M target</span>
+    <span class="ticker-item"><b>✦</b> Retainer funded · $100K · HealthTech · growth raise</span>
+    <span class="ticker-item"><b>✦</b> Phase 2 · institutional investors · SaaS</span>
+  </div>
+</div>
+
+<section class="section section-alt" id="bank-how">
+<div class="section-eyebrow reveal">The bank-side process</div>
+<div class="section-h2 reveal">From verification<br/>to <em>funded mandate.</em></div>
+<p class="section-sub reveal reveal-delay-1">We qualify institutions once, then match each funded company to one bank that fits its sector and size.</p>
+<div class="process">
+<div class="process-spine"></div>
+    <div class="step reveal">
+      <div class="step-num">01</div>
+      <div class="step-content">
+        <h3>Verify your institution</h3>
+        <p>Submit credentials and coverage: FINRA/FCA standing, sector depth, typical mandate size, and geography.</p>
+        <span class="step-tag">Regulatory verification · Coverage map · Mandate band</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-1">
+      <div class="step-num">02</div>
+      <div class="step-content">
+        <h3>Get matched to a funded company</h3>
+        <p>We match each vetted growth company with one bank in our network, based on sector and deal size. The mandate is exclusive.</p>
+        <span class="step-tag">Exclusive mandate · Screened companies</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-2">
+      <div class="step-num">03</div>
+      <div class="step-content">
+        <h3>Retainer paid. Mandate begins.</h3>
+        <p>$100K of lender capital pays your retainer upfront. You take the company to market: investor materials, outreach, and closing.</p>
+        <span class="step-tag">$100K retainer · Funded upfront</span>
+      </div>
+    </div>
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num">04</div>
+      <div class="step-content">
+        <h3>Investors come from the dinners</h3>
+        <p>Our dinner seminars put the CEO in front of about 40 accredited investors at a time, twice a week. Interested investors go straight to your team. Phase 2 brings in institutional investors.</p>
+        <span class="step-tag">Phase 1: Accredited · Phase 2: Institutional</span>
+      </div>
+    </div>
+</div>
+</section>
+
+<section class="section" id="bank-benefits">
+<div class="section-eyebrow reveal">Why banks use IWFT</div>
+<div class="section-h2 reveal">The retainer is paid.<br/><em>The investors</em> <strong>are waiting.</strong></div>
+<p class="section-sub reveal reveal-delay-1">The hardest parts of a lower-middle-market raise are getting paid to start and finding investors. We handle both.</p>
+<div class="protect-grid">
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>Retainer funded upfront</h3>
+<p>$100K paid from lender capital before work begins. Your work is engaged from day one.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>Exclusive mandates</h3>
+<p>One bank per company. You don't compete against other banks for the same raise.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>Seminar-sourced investors</h3>
+<p>Accredited investors who met the CEO at dinner come to you ready for next steps.</p>
+</div>
+<div class="protect-card reveal">
+<span class="protect-icon"></span>
+<h3>Sector-matched companies</h3>
+<p>Companies routed to your coverage map and mandate band, not cold inbound.</p>
+</div>
+<div class="protect-card reveal reveal-delay-1">
+<span class="protect-icon"></span>
+<h3>Institutional follow-on</h3>
+<p>Phase 2 of every raise brings institutional investors into the round.</p>
+</div>
+<div class="protect-card reveal reveal-delay-2">
+<span class="protect-icon"></span>
+<h3>Everyone wants the close</h3>
+<p>Lenders are repaid from raise proceeds, so the whole structure is aligned around getting your deal done.</p>
+</div>
+</div>
+</section>
+
+<section class="cta-section" id="bank-join">
+  <div class="cta-radial"></div>
+  <div class="cta-border-top"></div>
+
+  <div class="cta-label reveal">Join the bank network</div>
+  <div class="cta-h2 reveal">Verify once.<br/><em>Get funded</em><br/><strong>mandates.</strong></div>
+  <p class="cta-sub reveal">Request institutional verification. We review credentials and coverage, then match you to funded companies that fit, with the retainer paid and investor dinners on the calendar.</p>
+
+  <div class="cta-steps reveal">
+    <div class="cta-step"><span class="cta-step-icon"></span> Submit bank profile</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> Compliance review</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> Matched company</div>
+    <div class="cta-step" style="color:var(--gold);">→</div>
+    <div class="cta-step"><span class="cta-step-icon"></span> Retainer paid &amp; launch</div>
+  </div>
+
+  <div class="signup-form signup-form--wide reveal">
+    <iframe
+      data-tally-src="https://tally.so/embed/MeY7YM?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+      loading="lazy"
+      width="100%"
+      height="600"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      title="Join the Bank Network - IWouldFundThat"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">IWould<em>Fund</em>That</div>
+  <p>© 2026 IWouldFundThat.com · The Seminar Equity Engine™</p>
+  <div class="footer-links">
+    <a href="#" class="iwft-legal-open" data-legal-target="disclaimer">Disclaimer</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="privacy">Privacy Policy</a>
+    <a href="#" class="iwft-legal-open" data-legal-target="terms">Terms of Service</a>
+    <a href="mailto:rjohnson@iwouldfundthat.com">Contact</a>
+  </div>
+  <p class="footer-disclaimer">For discussion purposes only. Not an offer to sell or a solicitation to buy securities. Illustrative returns are not guarantees, and past results do not predict future results. Accredited investors only.</p>
+</footer>
+</div>
+
+<div id="iwft-legal-modal" class="legal-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="iwft-legal-modal-title">
+  <div class="legal-modal__backdrop" data-legal-close></div>
+  <div class="legal-modal__panel">
+    <div class="legal-modal__head">
+      <h2 id="iwft-legal-modal-title" class="legal-modal__title">IWouldFundThat — Legal &amp; Privacy</h2>
+      <p class="legal-modal__meta">Effective Date: March 28, 2026 · Website: <a href="https://iwouldfundthat.com" target="_blank" rel="noopener noreferrer">iwouldfundthat.com</a> · Contact: <a href="mailto:rjohnson@iwouldfundthat.com">rjohnson@iwouldfundthat.com</a></p>
+      <nav class="legal-modal__toc" aria-label="Legal sections">
+        <a href="#iwft-legal-disclaimer" class="legal-modal__toc-link">Disclaimer</a>
+        <a href="#iwft-legal-privacy" class="legal-modal__toc-link">Privacy Policy</a>
+        <a href="#iwft-legal-terms" class="legal-modal__toc-link">Terms of Service</a>
+        <a href="#iwft-legal-summary" class="legal-modal__toc-link">Summary</a>
+      </nav>
+      <button type="button" class="legal-modal__close" data-legal-close aria-label="Close">&times;</button>
+    </div>
+    <div class="legal-modal__body">
+      <div class="legal-modal__inner">
+
+        <!-- DISCLAIMER — appears first, above Privacy Policy and Terms -->
+        <section id="iwft-legal-disclaimer" class="legal-section" tabindex="-1">
+          <h3 class="legal-h3">Disclaimer for IWouldFundThat</h3>
+          <p class="legal-modal__meta" style="margin-bottom:1rem;">Effective Date: 05/05/2026</p>
+          <p>Welcome to IWouldFundThat. By accessing and using our website, content, emails, newsletters, videos, webinars, presentations, and any other communications or materials provided by IWouldFundThat, you agree to the terms of this disclaimer. Please read it carefully.</p>
+
+          <h4 class="legal-h4">General Information</h4>
+          <p>This disclaimer applies to all content, materials, and communications provided by IWouldFundThat.</p>
+
+          <h4 class="legal-h4">Educational and Informational Purposes Only</h4>
+          <p>The content provided by IWouldFundThat is for educational and informational purposes only. It is not intended to be, and should not be construed as, professional advice, recommendations, or endorsements of any kind.</p>
+
+          <h4 class="legal-h4">No Investment, Legal, or Tax Advice</h4>
+          <p>IWouldFundThat does not provide investment, financial, legal, accounting, or tax advice. Any information we share regarding companies, capital raising, fundraising, investing, or related topics is for informational purposes only and should not be relied upon as advice.</p>
+
+          <h4 class="legal-h4">Accuracy and Completeness</h4>
+          <p>While we strive to provide accurate and timely information, IWouldFundThat makes no representations or warranties regarding the accuracy, completeness, or timeliness of any content. We are not responsible for any errors, omissions, or outdated information.</p>
+
+          <h4 class="legal-h4">Investment Risk</h4>
+          <p>Any discussion of investing, fundraising, or capital markets involves risk. IWouldFundThat does not guarantee any specific outcome, financing result, investment return, or business success, and we are not responsible for any losses or gains resulting from decisions made based on our content.</p>
+
+          <h4 class="legal-h4">Third-Party Links and Content</h4>
+          <p>Our content may include links to third-party websites, services, or materials. IWouldFundThat does not control, endorse, or assume responsibility for the content, privacy practices, or policies of any third-party websites or services.</p>
+
+          <h4 class="legal-h4">Email and Video Communication</h4>
+          <p>Information presented in emails, webinars, videos, presentations, and similar communications from IWouldFundThat is provided for general informational purposes only and is not intended to be relied upon as legal, financial, tax, or other professional advice. You should seek qualified professional advice before acting on any information or opinions expressed in these communications.</p>
+
+          <h4 class="legal-h4">Opinions and Views</h4>
+          <p>Any opinions expressed by IWouldFundThat, its team members, or contributors are their own and do not necessarily reflect the official views of the company. IWouldFundThat does not endorse and is not responsible for any third-party views or content that may appear in our communications.</p>
+
+          <h4 class="legal-h4">Individual Responsibility</h4>
+          <p>By using our content and communications, you acknowledge that you are solely responsible for your own decisions and actions. IWouldFundThat shall not be liable for any loss, damage, or other consequence arising from your reliance on any information provided.</p>
+
+          <h4 class="legal-h4">Contact Information</h4>
+          <p>If you have questions about this disclaimer, please contact:</p>
+          <p>IWouldFundThat<br>rjohnson@iwouldfundthat.com</p>
+        </section>
+
+        <section id="iwft-legal-privacy" class="legal-section" tabindex="-1">
+          <h3 class="legal-h3">1. Privacy Policy</h3>
+          <h4 class="legal-h4">Overview</h4>
+          <p>IWouldFundThat ("Company," "we," "our," or "us") provides a platform connecting companies with investors, lenders, and capital partners. This Privacy Policy explains how we collect, use, and protect your information.</p>
+          <h4 class="legal-h4">Information We Collect</h4>
+          <p><strong>Information You Provide</strong></p>
+          <ul class="legal-ul">
+            <li>Name, email, phone number</li>
+            <li>Company and financial information</li>
+            <li>Funding requirements and deal data</li>
+            <li>Investor/lender accreditation details</li>
+          </ul>
+          <p><strong>Automatically Collected</strong></p>
+          <ul class="legal-ul">
+            <li>IP address</li>
+            <li>Device and browser data</li>
+            <li>Usage activity (pages visited, session data)</li>
+          </ul>
+          <p><strong>Third-Party Sources</strong></p>
+          <p>We may receive data from verification partners, analytics providers, and compliance vendors.</p>
+          <h4 class="legal-h4">How We Use Information</h4>
+          <ul class="legal-ul">
+            <li>Match users with funding opportunities</li>
+            <li>Facilitate introductions and transactions</li>
+            <li>Verify identity and eligibility</li>
+            <li>Improve platform performance</li>
+            <li>Communicate updates and support</li>
+          </ul>
+          <h4 class="legal-h4">Sharing of Information</h4>
+          <p>We may share data with:</p>
+          <ul class="legal-ul">
+            <li>Investors, lenders, and partners (for deal matching)</li>
+            <li>Service providers (legal, hosting, compliance)</li>
+            <li>Authorities if required by law</li>
+          </ul>
+          <p>We <strong>do not sell</strong> personal information.</p>
+          <h4 class="legal-h4">California Privacy Rights (CCPA/CPRA)</h4>
+          <p>If you are a California resident, you have the right to:</p>
+          <ul class="legal-ul">
+            <li><strong>Know</strong> what personal data we collect and how it's used</li>
+            <li><strong>Access</strong> your personal data</li>
+            <li><strong>Delete</strong> your data (subject to legal exceptions)</li>
+            <li><strong>Correct</strong> inaccurate data</li>
+            <li><strong>Opt-out</strong> of sale/sharing (we do not sell data)</li>
+            <li><strong>Limit</strong> use of sensitive data</li>
+            <li><strong>Non-discrimination</strong> for exercising rights</li>
+          </ul>
+          <h4 class="legal-h4">How to Exercise Rights</h4>
+          <p>Email: <a href="mailto:rjohnson@iwouldfundthat.com">rjohnson@iwouldfundthat.com</a></p>
+          <p>We may verify your identity before processing requests.</p>
+          <h4 class="legal-h4">Cookies &amp; Tracking</h4>
+          <p>We use cookies and analytics tools to improve user experience. You may control cookies through your browser settings.</p>
+          <h4 class="legal-h4">Data Retention</h4>
+          <p>We retain data only as long as necessary for:</p>
+          <ul class="legal-ul">
+            <li>Business operations</li>
+            <li>Legal and regulatory compliance</li>
+          </ul>
+          <h4 class="legal-h4">Security</h4>
+          <p>We use reasonable safeguards, but no system is fully secure.</p>
+          <h4 class="legal-h4">Children's Privacy</h4>
+          <p>Not intended for users under 18.</p>
+          <h4 class="legal-h4">Updates</h4>
+          <p>We may update this policy periodically.</p>
+        </section>
+
+        <section id="iwft-legal-terms" class="legal-section" tabindex="-1">
+          <h3 class="legal-h3">2. Terms of Service</h3>
+          <h4 class="legal-h4">Overview</h4>
+          <p>By using IWouldFundThat, you agree to these Terms.</p>
+          <h4 class="legal-h4">Eligibility</h4>
+          <p>You must:</p>
+          <ul class="legal-ul">
+            <li>Be 18+</li>
+            <li>Provide accurate information</li>
+            <li>Comply with applicable laws</li>
+          </ul>
+          <h4 class="legal-h4">Platform Role</h4>
+          <p>IWouldFundThat:</p>
+          <ul class="legal-ul">
+            <li>Is a <strong>technology and matchmaking platform</strong></li>
+            <li>Is <strong>not</strong> a bank, broker-dealer, or financial advisor</li>
+            <li>Does <strong>not</strong> guarantee funding or returns</li>
+          </ul>
+          <p>We are not a party to transactions between users.</p>
+          <h4 class="legal-h4">No Investment Advice</h4>
+          <p>All content is informational only and does not constitute financial, legal, or investment advice.</p>
+          <h4 class="legal-h4">User Responsibilities</h4>
+          <p><strong>Companies</strong></p>
+          <ul class="legal-ul">
+            <li>Provide accurate disclosures</li>
+            <li>Use funds appropriately</li>
+            <li>Honor agreements</li>
+          </ul>
+          <p><strong>Investors / Lenders</strong></p>
+          <ul class="legal-ul">
+            <li>Conduct independent due diligence</li>
+            <li>Understand risks</li>
+            <li>Comply with securities laws</li>
+          </ul>
+          <h4 class="legal-h4">Transactions</h4>
+          <p>All deals:</p>
+          <ul class="legal-ul">
+            <li>Occur directly between users</li>
+            <li>May involve third-party legal or payment providers</li>
+            <li>Are not guaranteed or facilitated as a brokered transaction</li>
+          </ul>
+          <h4 class="legal-h4">Fees</h4>
+          <p>We may charge:</p>
+          <ul class="legal-ul">
+            <li>Listing or application fees</li>
+            <li>Success or facilitation fees</li>
+          </ul>
+          <p>All fees will be disclosed in advance.</p>
+          <h4 class="legal-h4">Risk Disclosure</h4>
+          <p>Participation involves risk, including:</p>
+          <ul class="legal-ul">
+            <li>Loss of capital</li>
+            <li>Illiquidity</li>
+            <li>Business failure</li>
+          </ul>
+          <p>No guarantees of returns.</p>
+          <h4 class="legal-h4">Securities Compliance</h4>
+          <p>IWouldFundThat does not:</p>
+          <ul class="legal-ul">
+            <li>Act as a registered broker-dealer</li>
+            <li>Recommend securities</li>
+            <li>Execute transactions</li>
+          </ul>
+          <p>Some opportunities may be limited to <strong>accredited investors</strong> under Regulation D.</p>
+          <h4 class="legal-h4">Prohibited Conduct</h4>
+          <p>Users may not:</p>
+          <ul class="legal-ul">
+            <li>Submit false information</li>
+            <li>Commit fraud</li>
+            <li>Circumvent platform processes</li>
+            <li>Use platform unlawfully</li>
+          </ul>
+          <h4 class="legal-h4">Limitation of Liability</h4>
+          <p>The platform is provided "as is". We are not liable for:</p>
+          <ul class="legal-ul">
+            <li>Financial losses</li>
+            <li>Failed deals</li>
+            <li>User actions</li>
+          </ul>
+          <h4 class="legal-h4">Indemnification</h4>
+          <p>You agree to indemnify IWouldFundThat from claims related to your use of the platform.</p>
+          <h4 class="legal-h4">Dispute Resolution (California)</h4>
+          <p>Disputes will be resolved through <strong>binding arbitration</strong> in California, where permitted. Users waive participation in class actions.</p>
+          <h4 class="legal-h4">California Consumer Notice (Section 1789.3)</h4>
+          <p>Contact: <a href="mailto:rjohnson@iwouldfundthat.com">rjohnson@iwouldfundthat.com</a></p>
+          <p>California Department of Consumer Affairs<br>1625 North Market Blvd., Suite N 112<br>Sacramento, CA 95834<br>(800) 952-5210</p>
+          <h4 class="legal-h4">Termination</h4>
+          <p>We may suspend or terminate access at any time.</p>
+          <h4 class="legal-h4">Governing Law</h4>
+          <p>California, United States.</p>
+        </section>
+
+        <section id="iwft-legal-summary" class="legal-section" tabindex="-1">
+          <h3 class="legal-h3">3. Short-Form (User-Friendly Summary)</h3>
+          <h4 class="legal-h4">What We Do</h4>
+          <p>IWouldFundThat connects companies with investors and lenders through a transparent, structured platform.</p>
+          <h4 class="legal-h4">Your Data</h4>
+          <p>We collect basic personal, business, and usage information to:</p>
+          <ul class="legal-ul">
+            <li>Match you with funding opportunities</li>
+            <li>Improve the platform</li>
+            <li>Verify eligibility</li>
+          </ul>
+          <p>We <strong>do not sell</strong> your data.</p>
+          <h4 class="legal-h4">Your Rights (California Users)</h4>
+          <p>You can:</p>
+          <ul class="legal-ul">
+            <li>Request your data</li>
+            <li>Ask us to delete or correct it</li>
+            <li>Understand how it's used</li>
+          </ul>
+          <p>Email: <a href="mailto:rjohnson@iwouldfundthat.com">rjohnson@iwouldfundthat.com</a></p>
+          <h4 class="legal-h4">Important Disclaimers</h4>
+          <ul class="legal-ul">
+            <li>We are <strong>not</strong> a broker-dealer or financial advisor</li>
+            <li>We do <strong>not</strong> guarantee funding or returns</li>
+            <li>All investments carry risk</li>
+          </ul>
+          <h4 class="legal-h4">Your Responsibility</h4>
+          <ul class="legal-ul">
+            <li>Provide accurate information</li>
+            <li>Do your own due diligence</li>
+            <li>Comply with laws</li>
+          </ul>
+          <h4 class="legal-h4">Bottom Line</h4>
+          <p>We provide the platform and connections; you make the decisions.</p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+document.documentElement.style.scrollBehavior = 'smooth';
+
+// Custom cursor: desktop / fine pointer only (touch keeps native cursor)
+(function(){
+  var cursor = document.getElementById('cursor');
+  var ring = document.getElementById('cursorRing');
+  if (!cursor || !ring) return;
+  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  var mx=0,my=0,rx=0,ry=0;
+  document.addEventListener('mousemove',function(e){ mx=e.clientX; my=e.clientY; });
+  (function loop(){
+    cursor.style.transform='translate('+(mx-5)+'px,'+(my-5)+'px)';
+    rx+=(mx-rx)*.1; ry+=(my-ry)*.1;
+    ring.style.transform='translate('+(rx-18)+'px,'+(ry-18)+'px)';
+    requestAnimationFrame(loop);
+  })();
+})();
+
+// Scroll reveals
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+function iwftApplyView(){
+  var h = (location.hash||'').replace(/^#/,'');
+  var isLenders = h === 'lenders' || h.indexOf('lender') === 0;
+  var isBank = h === 'bank' || h.indexOf('bank-') === 0;
+  document.body.classList.toggle('iwft-view-lenders', isLenders);
+  document.body.classList.toggle('iwft-view-bank', isBank);
+  document.title = isLenders
+    ? 'IWouldFundThat — The $1M Retainer Program'
+    : isBank
+    ? 'IWouldFundThat — Funded Mandates for Investment Banks'
+    : 'IWouldFundThat — The Seminar Equity Engine™';
+  if (h && h !== 'lenders' && h !== 'bank' && document.getElementById(h)) {
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        document.getElementById(h).scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  } else if (isLenders) {
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        var hero = document.getElementById('lenders-hero');
+        if (hero) hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        else window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  } else if (isBank) {
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        var hero = document.getElementById('bank-hero');
+        if (hero) hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        else window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  } else if (h) {
+    requestAnimationFrame(function(){
+      var el = document.getElementById(h);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+}
+window.addEventListener('hashchange', iwftApplyView);
+iwftApplyView();
+
+// Deep-link to ROI section: iwouldfundthat.com/#lenders-roi
+if (location.hash === '#lenders-roi') {
+  document.body.classList.add('iwft-view-lenders');
+  document.title = 'IWouldFundThat — Retainer Lenders';
+  requestAnimationFrame(function(){
+    requestAnimationFrame(function(){
+      var el = document.getElementById('lender-roi');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
+(function(){
+  var modal = document.getElementById('iwft-legal-modal');
+  if (!modal) return;
+  var body = modal.querySelector('.legal-modal__body');
+  function scrollToSection(id){
+    var el = document.getElementById(id);
+    if (!el || !body) return;
+    var t = el.getBoundingClientRect().top - body.getBoundingClientRect().top + body.scrollTop;
+    body.scrollTop = Math.max(0, t - 8);
+  }
+  function openModal(target){
+    modal.hidden = false;
+    modal.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+    var map = { disclaimer: 'iwft-legal-disclaimer', privacy: 'iwft-legal-privacy', terms: 'iwft-legal-terms', summary: 'iwft-legal-summary' };
+    scrollToSection(map[target] || 'iwft-legal-disclaimer');
+    var closeBtn = modal.querySelector('.legal-modal__close');
+    if (closeBtn) closeBtn.focus();
+  }
+  function closeModal(){
+    modal.hidden = true;
+    modal.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+  }
+  document.querySelectorAll('.iwft-legal-open').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal(a.getAttribute('data-legal-target') || 'disclaimer');
+    });
+  });
+  modal.querySelectorAll('[data-legal-close]').forEach(function(el){
+    el.addEventListener('click', closeModal);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && !modal.hidden) closeModal();
+  });
+  modal.querySelectorAll('.legal-modal__toc-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      e.preventDefault();
+      var id = (link.getAttribute('href') || '').replace(/^#/,'');
+      if (id) scrollToSection(id);
+    });
+  });
+})();
+
+// ROI Calculator
+(function(){
+  var BASIS_TO_NOTIONAL_RATIO = 200; // $1,000 basis → $200,000 notional
+  var basisInput  = document.getElementById('roi-basis');
+  var basisSlider = document.getElementById('roi-basis-slider');
+  var cyclesBtns  = document.querySelectorAll('.roi-toggle');
+  var selectedCycles = 2;
+
+  function fmt(n){ return '$' + Math.round(n).toLocaleString('en-US'); }
+  function fmtPct(n){ return Math.round(n).toLocaleString('en-US') + '%'; }
+  function fmtX(n){ return Math.round(n).toLocaleString('en-US') + 'x'; }
+
+  function update(){
+    var basis   = Math.max(1, parseFloat(basisInput.value) || 1000);
+    var notional = basis * BASIS_TO_NOTIONAL_RATIO;
+    var netGain  = notional - basis;
+    var roiPct   = (netGain / basis) * 100;
+    var roiX     = netGain / basis + 1; // 199x at $1k basis
+
+    var annualNotional = notional * selectedCycles;
+    var annualGain     = netGain  * selectedCycles;
+    var annualPct      = roiPct   * selectedCycles;
+    var annualX        = roiX * selectedCycles;
+
+    document.getElementById('roi-principal').textContent   = fmt(notional);
+    document.getElementById('roi-notional').textContent    = fmt(notional);
+    document.getElementById('roi-cost-basis').textContent  = fmt(basis);
+    document.getElementById('roi-net-gain').textContent    = fmt(netGain);
+    document.getElementById('roi-pct').textContent         = fmtPct(roiPct);
+    document.getElementById('roi-multiplier').innerHTML    = Math.round(roiX - 1).toLocaleString('en-US') + '<span class="roi-multiplier-x">x</span>';
+    document.getElementById('roi-annual-x').textContent   = fmtX(annualX - selectedCycles);
+    document.getElementById('roi-annual-notional').textContent = fmt(annualNotional);
+    document.getElementById('roi-annual-gain').textContent     = fmt(annualGain);
+    document.getElementById('roi-annual-pct').textContent      = fmtPct(annualPct);
+  }
+
+  if(basisInput){
+    basisInput.addEventListener('input', function(){
+      basisSlider.value = Math.min(basisSlider.max, basisInput.value);
+      update();
+    });
+    basisSlider.addEventListener('input', function(){
+      basisInput.value = basisSlider.value;
+      update();
+    });
+  }
+
+  cyclesBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      cyclesBtns.forEach(function(b){ b.classList.remove('active','active-default'); });
+      btn.classList.add('active');
+      selectedCycles = parseInt(btn.getAttribute('data-cycles'),10);
+      update();
+    });
+  });
+
+  if(basisInput && document.getElementById('roi-principal')) update();
+})();
+
+(function(){
+  var d=document,w='https://tally.so/widgets/embed.js',v=function(){
+    if(typeof Tally!=='undefined'){Tally.loadEmbeds();}
+    else{d.querySelectorAll('iframe[data-tally-src]:not([src])').forEach(function(e){e.src=e.dataset.tallySrc;});}
+  };
+  if(typeof Tally!=='undefined'){v();}
+  else if(d.querySelector('script[src="'+w+'"]')===null){
+    var s=d.createElement('script');
+    s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);
+  }
+})();
+</script>
+
+<?php get_footer(); ?>
